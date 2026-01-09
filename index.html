@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laundry Service Haouma ELHADDAD</title>
+    <style>
+        /* DESIGN DU SITE (CSS) */
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; padding: 0; color: #333; line-height: 1.6; }
+        header { background-color: #008CBA; color: white; padding: 1rem 0; text-align: center; }
+        nav { display: flex; justify-content: center; background: #007095; padding: 10px; }
+        nav a { color: white; text-decoration: none; margin: 0 15px; font-weight: bold; }
+        
+        .hero {
+            background-color: #f4f4f4; padding: 50px 20px; text-align: center;
+            background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1545173168-9f1947eebb8f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
+            background-size: cover; background-position: center; color: white;
+        }
+        .hero h1 { font-size: 2.5rem; margin-bottom: 10px; }
+        .btn { background-color: #25D366; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; font-weight: bold; display: inline-block; margin-top: 10px; }
+        
+        .container { max-width: 1000px; margin: auto; padding: 20px; }
+        .section-title { text-align: center; color: #008CBA; margin-top: 40px; }
+        
+        .services-grid { display: flex; flex-wrap: wrap; justify-content: space-around; text-align: center; }
+        .service-item { flex-basis: 30%; margin-bottom: 20px; padding: 20px; background: #f9f9f9; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+        
+        .info-box { background: #eef9fc; padding: 20px; border-left: 5px solid #008CBA; margin: 20px 0; }
+        
+        footer { background-color: #333; color: white; text-align: center; padding: 20px; margin-top: 40px; }
+        
+        /* Mobile */
+        @media (max-width: 768px) {
+            .service-item { flex-basis: 100%; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Laundry Service</h1>
+        <p>Haouma ELHADDAD - Tanger</p>
+    </header>
+
+    <nav>
+        <a href="#services">Services</a>
+        <a href="#infos">Infos Pratiques</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="hero">
+        <h1>Votre linge, notre passion</h1>
+        <p>Service de nettoyage professionnel, rapide et soigné à Tanger.</p>
+        <a href="https://api.whatsapp.com/send?phone=212614088222" class="btn">Commander sur WhatsApp</a>
+    </div>
+
+    <div class="container">
+        
+        <h2 id="services" class="section-title">Nos Services</h2>
+        <div class="services-grid">
+            <div class="service-item">
+                <h3>🧺 Lavage & Séchage</h3>
+                <p>Vos vêtements lavés avec des produits de qualité et séchés soigneusement.</p>
+            </div>
+            <div class="service-item">
+                <h3>👔 Repassage</h3>
+                <p>Service de repassage impeccable pour vos chemises, pantalons et costumes.</p>
+            </div>
+            <div class="service-item">
+                <h3>🛏️ Couettes & Tapis</h3>
+                <p>Nettoyage en profondeur pour vos grandes pièces (couettes, couvertures, tapis).</p>
+            </div>
+        </div>
+
+        <h2 id="infos" class="section-title">Informations Pratiques</h2>
+        <div class="info-box">
+            <h3>🕒 Horaires d'ouverture</h3>
+            <p><strong>Lundi, Mardi, Jeudi, Samedi, Dimanche :</strong> 09:00 - 00:00</p>
+            <p><strong>Mercredi et Vendredi :</strong> 12:00 - 00:00</p>
+        </div>
+
+        <div class="info-box">
+            <h3>📍 Notre Adresse</h3>
+            <p>17, 4 RUE 12 ESSALAM<br>Tanger 90060, Maroc</p>
+            <p><em>(Quartier Haouma ELHADDAD)</em></p>
+        </div>
+
+        <h2 id="contact" class="section-title">Nous Contacter</h2>
+        <div style="text-align: center;">
+            <p>Une question ? Besoin d'un ramassage ?</p>
+            <p>📞 <strong>+212 614-088222</strong></p>
+            <a href="https://api.whatsapp.com/send?phone=212614088222" class="btn">Envoyer un message WhatsApp</a>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Laundry Service Haouma ELHADDAD. Tous droits réservés.</p>
+    </footer>
+
+</body>
+</html>
